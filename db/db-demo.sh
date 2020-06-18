@@ -67,7 +67,7 @@
   CREATE TABLE $TABLE_NAME_EXAMPLE ( id               integer      , 
                                      name             varchar(255) ,
                                      capital          varchar(255) ,
-                                     inhabitants      integer      , 
+                                     population       integer      , 
                                      year             integer      , 
                                      CONSTRAINT pk_country PRIMARY KEY ( id )
   ) ;
