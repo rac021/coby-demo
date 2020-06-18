@@ -1,0 +1,26 @@
+type   = DATARIV_DB_PG
+
+# type = ONTOP
+# type = DATARIV_CSV_PG
+# type = DATARIV_CSV_H2
+# type = DATARIV_CSV_Q
+# type = DATARIV_DB_PG
+# type = DATARIV_DB_MYSQL
+
+#################################
+### ONTOP V.4 CREDIENTIALS ######
+#################################
+
+jdbc.name     = dbLacsMapping
+jdbc.url      = jdbc:postgresql://127.0.0.1/country?sendBufferSize=5000
+jdbc.user     = admin
+jdbc.password = admin
+jdbc.driver   = org.postgresql.Driver
+
+
+
+# jdbc.name     = dbLacsMapping
+# jdbc.url      = jdbc:postgresql://127.0.0.1/foret?sendBufferSize=5000
+# jdbc.user     = ryahiaoui
+# jdbc.password = yahiaoui
+# jdbc.driver   = org.postgresql.Driver

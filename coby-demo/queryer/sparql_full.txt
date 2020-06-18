@@ -1,0 +1,11 @@
+
+   SELECT  ?S  ?P  ?O        
+     
+    WHERE  {
+        
+           hint:Query hint:analytic "true" .    
+           
+          ?S ?P ?O .
+  }
+  
+

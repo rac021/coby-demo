@@ -1,0 +1,9 @@
+PREFIX : http://www.anaee-france.fr/ontology/anaee-france_ontology#
+PREFIX rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+PREFIX rdfs: http://www.w3.org/2000/01/rdf-schema#
+PREFIX xsd: http://www.w3.org/2001/XMLSchema#
+PREFIX oboe-characteristics: http://ecoinformatics.org/oboe/oboe.1.0/oboe-characteristics.owl#
+PREFIX oboe-core: http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#
+PREFIX oboe-spatial: http://ecoinformatics.org/oboe/oboe.1.0/oboe-spatial.owl#
+PREFIX oboe-standards: http://ecoinformatics.org/oboe/oboe.1.0/oboe-standards.owl#
+PREFIX oboe-temporal: http://ecoinformatics.org/oboe/oboe.1.0/oboe-temporal.owl#
