@@ -269,8 +269,8 @@
         echo 
         echo 
 
-        OUT=`readlink -f ../queryer/RESULT.txt `
-        QUERY_PATH=`readlink -f ../queryer/sparql_full.txt `
+        OUT=`readlink -f ./queryer/RESULT.txt `
+        QUERY_PATH=`readlink -f ./queryer/sparql_full.txt `
             
         echo
         echo " QUERY_PATH : $QUERY_PATH "
@@ -391,8 +391,8 @@
            echo 
  
 
-           OUT=`readlink -f ../queryer/RESULT.txt `
-           QUERY_PATH=`readlink -f ../queryer/sparql_full.txt `
+           OUT=`readlink -f ./queryer/RESULT.txt `
+           QUERY_PATH=`readlink -f ./queryer/sparql_full.txt `
             
            echo
            echo -e " QUERY_PATH : $QUERY_PATH "
