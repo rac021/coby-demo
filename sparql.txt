@@ -1,0 +1,20 @@
+
+SELECT ?country ?capital ?population ?year ?presidentName
+
+WHERE { 
+  
+    ?country   <http://localhost:8888/hasAsCapital>   ?capital . 
+  
+    ?country   <http://localhost:8888/Population>     ?population . 
+  
+    ?country   <http://localhost:8888/hadAsPresident> ?president .
+        
+    ?president <http://localhost:8888/presidentName>  ?presidentName .
+             
+   
+    OPTIONAL  {
+      
+       ?country <https://en.wikipedia.org/wiki/Year> ?year . 
+    }
+
+}
