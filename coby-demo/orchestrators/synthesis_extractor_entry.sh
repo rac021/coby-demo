@@ -169,7 +169,7 @@
          
     SI=${1:-""}
    
-    if [ -z "$SI" -o "$SI" == "ALL_SI" ] ; then
+    if [ -z "$SI" -o "$SI" == "ALL_SI" -o "$SI" == "*" ] ; then
     
         for SI in `ls "$SI_PATHS" --ignore "ontology" --ignore "SI.txt" `;   do
 
